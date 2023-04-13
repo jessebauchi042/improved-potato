@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  color: white;
+  text-decoration: none;
+  }
+      .box-1{
+  background-image: linear-gradient(-160deg ,rgba(168, 12, 134),rgb(47, 7, 28),rgb(47, 7, 28),rgb(168, 12, 134));
+}
+a ,.image,.buy-button, h1,.discover,.expand ,.contain,.editor,.box2-1,.beautiful-text{
+  margin-left: 50px;
+}
+a.one ~ a{
+  margin-left: 75px;
+}
+.search{
+  margin-left: 25%;
+  height: 30px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  caret-color: black;
+  color: black;
+  padding: 3px;
+}
+.logo ,.text-logo,.expand,.image-box,.ball,.see-all{
+  display: inline-block;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.image, a ,.text-logo ,.search ,.buy-button{
+  margin-top: 20px;
+}
+.image{
+  width: 30px;
+ }
+.text-logo{
+  margin-left: 10px;
+  font-size: 1rem;
+ }
+ .buy-button{
+  padding: 10px 25px;
+  color:  rgb(74, 14, 71);
+  background-color: white;
+  border: none;
+  font-weight: bold;
+ }
+ .search::placeholder{
+     color: rgba(19, 14, 14, 0.693);
+    font-weight: bold;
+   padding-left: 10px;
+ }
+h1{
+  line-height: 55px;
+  margin-top: 70px;
+}
+.discover{
+  width: 370px;
+  line-height: 27px;
+}
+.image-box{
+  position: absolute;
+  left: 71%;
+  top: 150px;
+  background-color: transparent;
+  }
+.junk{
+  height: 450px;
+width: 350px;
+border-top-left-radius: 16px;
+border-top-right-radius: 70px;
+border-bottom-left-radius: 70px;
+border-bottom-right-radius: 16px;
+border:rgb(88, 23, 88) solid 5px;
+}
+.expand,.ball,.see-all{
+  background-color: white;
+}
+.expand{
+  border: none;
+padding: 15px 40px;
+margin-top: 40px;
+font-weight: bold;
+color: rgb(78, 11, 77);
+transition-duration: 1s;
+cursor: pointer;
+}
+.ball{
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 19px;
+  margin-left: 45px;
+top: 11px;
+}
+.contain{
+  background-image: linear-gradient(to bottom, rgba(244, 241, 241, 0.464), rgba(212, 206, 210, 0));
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 498px;
+  padding: 5px;
+  margin-top: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.431);
+}
+.cc, .gg{
+  height: 70px;
+  }
+  .gg{
+    border-left: 2px solid rgba(255, 255, 255, 0.719);
+    border-right: 2px solid rgba(255, 255, 255, 0.809);
+  }
+  .box2-1{
+    background-color:transparent;
+    height: 14vh;
+    width: 90vw;
+   border: 1px solid rgba(255, 255, 255, 0.701);
+   margin-top: 120px;
+  }
+  .box-2{
+    background: linear-gradient(to top left , rgb(47, 7, 28),rgb(47, 7, 28),rgb(47, 7, 28), rgb(47, 7, 28),rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28), rgb(47, 7, 28),rgb(175, 15, 141)); 
+   }
+.editor{
+  padding-top: 100px;
+}
+.box-2 button{
+  height: 65px;
+  width: 167px;
+  margin-top: 70px;
+  background: rgba(180, 179, 179, 0.508);
+  border: none;
+  transition-duration: 2s;
+ }
+.qq{
+  margin-left: 3%;
+  background-color: white !important;
+}
+button.qq~.rr{
+  margin-left: 80px;
+}
+.ee ,.ff,.yy ,.hh{
+  display: inline-block;
+  background-image: linear-gradient(to bottom,  rgba(128, 128, 128, 0.133), rgba(128, 128, 128, 0.165), rgba(128, 128, 128, 0.393) ,rgba(128, 128, 128, 0.393),rgba(128, 128, 128, 0.040));
+  height: 420px;
+  width: 320px;
+ margin-left: 3%;
+ margin-top: 30px;
+ border: 1px solid rgba(255, 255, 255, 0.124);
+ text-align: center;
+}
+.box-2 img{
+  height: 250px;
+  width: 90%;
+  padding-top: 10px;
+}
+.see-all{
+   padding: 20px 40px;
+  margin-left: 42%;
+ color: rgb(70, 4, 62);
+  margin-top: 120px;
+  font-weight: bold;
+ }
+ .box-4{
+  background-image: linear-gradient(to top right , rgb(47, 7, 28),rgb(47, 7, 28),rgb(47, 7, 28), rgb(47, 7, 28),rgb(47, 7, 28));
+  display: grid;
+  grid-template-columns: auto auto;
+  box-sizing: border-box;
+ }
+.beautiful-text{
+   display: block;
+  width: 400px;
+  font-weight: bold;
+  font-family: bahnschrift;
+  line-height: 24px;
+  margin-top: 10px;
+ }
+ .i ,.ii ,.iii ,.iv{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.xi ,.xii ,.xiii ,.xiv{
+  height: 250px;
+  width: 160px;
+  box-shadow: 7px 15px 12px rgba(128, 0, 128, 0.529);
+}
+.xi{
+  transform: translate( 200px ,170px) ;
+ }
+.xii{
+transform: translate(10px,75px);
+  }
+.xiii{
+  transform: translate(200px,-45px);
+   }
+.xiv{
+  transform: translate(400px,-430px);
+   }
+.beauty{
+  margin-top: 32%;
+}
